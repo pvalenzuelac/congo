@@ -408,11 +408,6 @@ object {
 }
 
 
-img {
-  outline: 5px solid #082f49;
-}
-
-
 
 
 /*
@@ -3036,7 +3031,7 @@ body:has(#menu-controller:checked) {
 
 
 /*
-Show/Hide Abstract
+  Show/Hide Abstract
 */
 
 .details,
@@ -3048,4 +3043,13 @@ Show/Hide Abstract
 .hide:target+.show,
 .hide:target~.details {
   display: block;
+}
+
+
+/*
+  Outline outside the profile picture
+*/
+
+img {
+  outline: 5px solid #082f49;
 }
